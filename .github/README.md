@@ -12,7 +12,7 @@ come in complementary pairs which mostly fall into four categories:
 - There are mappings which are simply short normal mode aliases for commonly used ex commands. `]q` is `:cnext`. `[q` is `:cprevious`. `]a` is `:next`. `[b` is `:bprevious`. See the [default configuration](#default-configuration) for the full set of 20 mappings
 - There are linewise mappings. `[<Space>` and `]<Space>` add newlines before and after the cursor line. `[e` and `]e` exchange the current line with the one above or below it.
 - There are mappings for toggling options. `[os`, `]os`, and `yos` perform `:set spell`, `:set nospell`, and `:set invspell`, respectively. There's also `l` (list), `n` (number), `w` (wrap), `x` (cursorline cursorcolumn), and several others
-- And in the miscellaneous category, there's `[f` and `]f` to go to the next/previous file in the directory, and `[n` and `]n` to jump between SCM conflict markers (the latter is not implemented yet)
+- And in the miscellaneous category, there's `[f` and `]f` to go to the next/previous file in the directory, and `[n` and `]n` to jump between SCM conflict markers
 
 ### ✨ Features
 
